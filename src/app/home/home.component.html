@@ -1,0 +1,28 @@
+<div class="box" style=" position: relative; ">
+
+  <div class="video-background">
+    <video autoplay muted loop>
+      <source src="../assets/Videos/first.mp4" type="video/mp4" />
+    </video>
+  </div>
+  <div class="contanier">
+    <div class="heading">
+      PRECISE CONCEPT DESIGN <br> FOR STYLE LIVING
+    </div>
+    <div class="details">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Ea ipsa aperiam qui excepturi, molestias
+      voluptates incidunt cupiditate sunt labore <br> facilis in quam dolorem, saepe alias esse. Unde nulla
+      recusandae laborum nisi aspernatur, dolorum aperiam.
+    </div>
+    <div class="key">
+      <button class="btn">OUR SERVICES</button>
+    </div>
+  </div>
+  <div class="card-container" #cardContainer>
+    <div class="card" *ngFor="let card of cards">
+      <img [src]="card.image" [alt]="card.title" />
+      <h3>{{ card.title }}</h3>
+      <p>{{ card.description }}</p>
+    </div>
+  </div>
+</div>

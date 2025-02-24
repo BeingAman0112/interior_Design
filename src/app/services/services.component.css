@@ -1,0 +1,30 @@
+/* .firstbox{
+  height: 30%;
+  width: 25%;
+  background-color: white;
+} */
+#container{
+  margin-top: 50px;
+  height:100%;
+  width: 100%;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+.firstBox{
+  border: 1px solid red;
+  height: 200px;
+  width: 200px;
+}
+.secondBox{
+  border: 1px solid green;
+  height: 200px;
+  width: 200px;
+}
+.thirdBox{
+  border: 1px solid blue;
+  height: 200px;
+  width: 200px;
+}
