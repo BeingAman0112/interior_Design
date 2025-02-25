@@ -7,7 +7,7 @@
   margin-top: 50px;
   height:100%;
   width: 100%;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -17,13 +17,16 @@
   border: 1px solid red;
   height: 200px;
   width: 200px;
+  margin-left: 15px;
 }
 .secondBox{
   border: 1px solid green;
   height: 200px;
   width: 200px;
+  margin-left: 15px;
 }
 .thirdBox{
+  margin-left: 15px;
   border: 1px solid blue;
   height: 200px;
   width: 200px;
