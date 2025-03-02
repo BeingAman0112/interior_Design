@@ -1,0 +1,9 @@
+.boxabout{
+  overflow-x: hidden;
+}
+#heading{
+  font-size: 35vw;
+  text-transform: uppercase;
+  color: gray;
+  /* transform: translate(-150%); */
+}

@@ -21,15 +21,21 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
+              "src/assets",
               {
                 "glob": "**/*",
                 "input": "public"
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/@progress/kendo-theme-classic/dist/all.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/@progress/kendo-theme-default/dist/all.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -92,5 +98,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "ced24731-c706-4213-ac1e-2e69c90d15ad"
   }
 }

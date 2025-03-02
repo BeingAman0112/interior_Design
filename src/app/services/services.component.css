@@ -1,10 +1,12 @@
-/* .firstbox{
-  height: 30%;
-  width: 25%;
-  background-color: white;
-} */
+
+.box {
+  height: 720px;
+  background: url('../../assets/Images/4.jpeg') no-repeat center center;
+  background-size: cover;
+  padding: 20px;
+}
 #container{
-  margin-top: 50px;
+  margin-top: 0px;
   height:100%;
   width: 100%;
   /* border: 1px solid white; */
@@ -14,20 +16,24 @@
 
 }
 .firstBox{
-  border: 1px solid red;
+  border: 3px solid rgb(0, 0, 0);
   height: 200px;
   width: 200px;
   margin-left: 15px;
 }
 .secondBox{
-  border: 1px solid green;
+  border: 3px solid rgb(0, 0, 0);
   height: 200px;
   width: 200px;
   margin-left: 15px;
 }
 .thirdBox{
   margin-left: 15px;
-  border: 1px solid blue;
+  border: 3px solid rgb(0, 0, 0);
   height: 200px;
   width: 200px;
+}
+.pic{
+  width: 195px;
+  height: 195px;
 }

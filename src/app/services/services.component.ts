@@ -19,40 +19,40 @@ export class ServicesComponent implements AfterViewInit {
 
     // First Box Animation
     gsap.to(".firstBox", {
-      x: 1200,
+      x: 1000,
       duration: 3,
       scrollTrigger: {
         trigger: ".firstBox",
         start: "top 95%", // Animation starts when `.firstBox` enters 80% of the viewport
         end: "top 5%", // Ends when it reaches 20% of the viewport
         scrub: true, // Smooth animation on scroll
-        markers: false, // Enable markers (for debugging, remove later)
+         // Enable markers (for debugging, remove later)
       }
     });
 
     // Second Box Animation
     gsap.to(".secondBox", {
-      x: 1200,
+      x: 1000,
       duration: 3,
       scrollTrigger: {
         trigger: ".secondBox",
-        start: "top 63%",
+        start: "top 80%",
         end: "top 5%",
         scrub: true,
-        markers: false,
+
       }
     });
 
     // Third Box Animation
     gsap.to(".thirdBox", {
-      x: 1200,
+      x: 1000,
       duration: 3,
       scrollTrigger: {
         trigger: ".thirdBox",
         start: "top 70%",
         end: "top 5%",
         scrub: true,
-        markers: false,
+
       }
     });
 
