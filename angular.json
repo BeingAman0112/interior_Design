@@ -13,7 +13,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/design",
+            "outputPath": "docs",
+            "baseHref": "/interior_Design/",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -42,8 +43,8 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kB",
-                  "maximumError": "1MB"
+                  "maximumWarning": "2mb",
+                  "maximumError": "3MB"
                 },
                 {
                   "type": "anyComponentStyle",
